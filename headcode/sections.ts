@@ -165,6 +165,10 @@ export const logos = {
         name: TextField({
           label: 'Name',
         }),
+        link: LinkField({
+          label: 'Link',
+          description: 'Official website for this technology.',
+        }),
         iconPath: TextareaField({
           label: 'Icon Path',
           description:

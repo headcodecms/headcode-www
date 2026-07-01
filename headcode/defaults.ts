@@ -94,12 +94,60 @@ export const defaultLogos = {
   data: {
     eyebrow: 'Built with',
     items: [
-      { name: 'Next.js', iconPath: '' },
-      { name: 'TypeScript', iconPath: '' },
-      { name: 'Convex', iconPath: '' },
-      { name: 'shadcn/ui', iconPath: '' },
-      { name: 'MCP', iconPath: '' },
-      { name: 'Vercel', iconPath: '' },
+      {
+        name: 'Next.js',
+        link: {
+          title: 'Next.js',
+          url: 'https://nextjs.org/',
+          openInNewWindow: true,
+        },
+        iconPath: '',
+      },
+      {
+        name: 'TypeScript',
+        link: {
+          title: 'TypeScript',
+          url: 'https://www.typescriptlang.org/',
+          openInNewWindow: true,
+        },
+        iconPath: '',
+      },
+      {
+        name: 'Convex',
+        link: {
+          title: 'Convex',
+          url: 'https://www.convex.dev/',
+          openInNewWindow: true,
+        },
+        iconPath: '',
+      },
+      {
+        name: 'shadcn/ui',
+        link: {
+          title: 'shadcn/ui',
+          url: 'https://ui.shadcn.com/',
+          openInNewWindow: true,
+        },
+        iconPath: '',
+      },
+      {
+        name: 'MCP',
+        link: {
+          title: 'Model Context Protocol',
+          url: 'https://modelcontextprotocol.io/',
+          openInNewWindow: true,
+        },
+        iconPath: '',
+      },
+      {
+        name: 'Vercel',
+        link: {
+          title: 'Vercel',
+          url: 'https://vercel.com/',
+          openInNewWindow: true,
+        },
+        iconPath: '',
+      },
     ],
   },
 }
