@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono, Inter } from 'next/font/google'
 import { connection } from 'next/server'
+import { Analytics } from '@vercel/analytics/next'
 import './site.css'
 import { EntriesDialog } from './_components/entries-dialog'
 import { SiteFooter, SiteHeader } from './_components/chrome'
@@ -78,6 +79,7 @@ export default async function RootLayout({
           />
         ) : null}
         <EntriesDialog />
+        <Analytics />
       </body>
     </html>
   )
