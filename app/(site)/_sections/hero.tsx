@@ -1,10 +1,11 @@
-import { ArrowRight, PlayCircle } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 import * as React from 'react'
 
 import { Button } from '@/components/ui/button'
 import type { HeroData } from '@/headcode/sections'
 import { Container } from '../_components/container'
+import { GithubIcon } from '../_components/github-icon'
 import { renderSiteIcon } from '../_components/icons'
 import { compactMarkdown, markdownLink } from './render-utils'
 
@@ -78,7 +79,7 @@ export const HeroActions = ({ data }: { data: HeroData }) => (
         nativeButton={false}
         render={<Link href={data.secondaryButton.url} />}
       >
-        <PlayCircle className="size-4" />
+        <GithubIcon className="size-4" />
         {data.secondaryButton.title}
       </Button>
     ) : null}
